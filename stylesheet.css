@@ -10,7 +10,7 @@ html {
     font-family: Montserrat, sans-serif;
 }
 
-main {
+.main {
     display: flex;
     flex-direction: column;
 }
@@ -35,4 +35,24 @@ main {
 .nav-item a {
     text-decoration: none;
     color: white;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    height: 10vh;
+}
+
+.contacts > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem
+}
+
+.banner {
+    padding: 30vh 10vw;
 }
