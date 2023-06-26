@@ -1,5 +1,6 @@
 :root {
-    --bg-color: rgb(18,18,18);
+    --bg-color: rgb(18, 18, 18);
+    overflow-x: hidden;
 }
 
 html {
@@ -29,7 +30,7 @@ html {
 }
 
 .nav-item:hover {
-    background-color: rgb(43,47,49);
+    background-color: rgb(43, 47, 49);
 }
 
 .nav-item a {
@@ -65,6 +66,25 @@ html {
     gap: 0.4rem;
 }
 
+.creampuffs {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: space-between;
+    padding: 50px 0 50px 0;
+}
+
+.creampuffs-image-wrapper {
+    height: 40vh;
+    aspect-ratio: 12/16;
+}
+
+.creampuffs-image-wrapper>img {
+    height: 40vh;
+    aspect-ratio: 12/16;
+    border-radius: 10px;
+}
+
 .contacts {
     display: flex;
     flex-direction: row;
@@ -74,7 +94,7 @@ html {
     height: 10vh;
 }
 
-.contacts > div {
+.contacts>div {
     display: flex;
     flex-direction: row;
     align-items: center;
