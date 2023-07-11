@@ -76,13 +76,35 @@ html {
 
 .creampuffs-image-wrapper {
     height: 40vh;
-    aspect-ratio: 12/16;
+    aspect-ratio: 12/12;
 }
 
 .creampuffs-image-wrapper>img {
     height: 40vh;
-    aspect-ratio: 12/16;
+    aspect-ratio: 12/12;
     border-radius: 10px;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-subtitle {
+    margin: 10px 0px;
+}
+
+.projects-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.project {
+    background-color: gray;
+    width: 60vw;
+    padding: 10px 10px;
 }
 
 .contacts {
@@ -102,5 +124,11 @@ html {
 }
 
 .banner {
-    padding: 30vh 10vw;
+    height: 80vh;
+}
+
+/* helper style class */
+
+.underline {
+    border-bottom: 2px solid #323131
 }
