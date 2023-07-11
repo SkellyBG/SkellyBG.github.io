@@ -76,12 +76,12 @@ html {
 
 .creampuffs-image-wrapper {
     height: 40vh;
-    aspect-ratio: 12/12;
+    aspect-ratio: 12/9;
 }
 
 .creampuffs-image-wrapper>img {
     height: 40vh;
-    aspect-ratio: 12/12;
+    aspect-ratio: 12/9;
     border-radius: 10px;
 }
 
