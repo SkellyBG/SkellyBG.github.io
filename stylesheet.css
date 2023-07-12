@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('fonts/JosefinSans-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+
 :root {
     --bg-color: rgb(18, 18, 18);
     overflow-x: hidden;
@@ -36,6 +47,18 @@ html {
 .nav-item a {
     text-decoration: none;
     color: white;
+}
+
+.banner {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-text {
+    font-family: JosefinSans, sans-serif;
+    font-size: 10em;
 }
 
 .about-me {
@@ -121,10 +144,6 @@ html {
     flex-direction: row;
     align-items: center;
     gap: 0.5rem
-}
-
-.banner {
-    height: 80vh;
 }
 
 /* helper style class */
