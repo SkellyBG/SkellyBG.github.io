@@ -61,6 +61,14 @@ html {
     font-size: 10em;
 }
 
+.banner-line-one {
+    transform: translateX(10vw);
+}
+
+.banner-line-two {
+    transform: translateX(30vw);
+}
+
 .about-me {
     display: flex;
     flex-direction: column;
