@@ -27,6 +27,8 @@ html {
     flex-direction: column;
 }
 
+/* Navigation bar styling */
+
 .nav-list {
     display: flex;
     align-items: center;
@@ -49,6 +51,8 @@ html {
     color: white;
 }
 
+/* Banner section styling */
+
 .banner {
     height: 80vh;
     display: flex;
@@ -68,6 +72,8 @@ html {
 .banner-line-two {
     transform: translateX(30vw);
 }
+
+/* About me section styling */
 
 .about-me {
     display: flex;
@@ -97,6 +103,8 @@ html {
     gap: 0.4rem;
 }
 
+/* Creampuffs section (yes really) styling */
+
 .creampuffs {
     display: flex;
     flex-direction: row;
@@ -115,6 +123,8 @@ html {
     aspect-ratio: 12/9;
     border-radius: 10px;
 }
+
+/* Projects section styling */
 
 .projects-wrapper {
     display: flex;
@@ -137,6 +147,8 @@ html {
     width: 60vw;
     padding: 10px 10px;
 }
+
+/* Contacts section styling */
 
 .contacts {
     display: flex;
