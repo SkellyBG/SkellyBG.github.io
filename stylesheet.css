@@ -40,7 +40,7 @@ html {
 
 .nav-item {
     list-style: none;
-    padding: 0.5rem 2rem;
+    padding: 1rem 2.35rem;
     border-radius: 7px;
 }
 
@@ -49,6 +49,7 @@ html {
     text-decoration: none;
     color: white;
     overflow: hidden;
+    font-size: 1.2em;
 }
 
 .nav-item a:hover::after,
@@ -73,7 +74,7 @@ html {
 /* Banner section styling */
 
 .banner {
-    height: 80vh;
+    height: 92vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
