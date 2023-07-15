@@ -20,6 +20,8 @@ html {
     background-color: var(--bg-color);
     color: white;
     font-family: Montserrat, sans-serif;
+
+    scroll-behavior: smooth;
 }
 
 .main {
