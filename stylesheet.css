@@ -186,6 +186,11 @@ html {
     gap: 0.5rem
 }
 
+.contacts a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* helper style class */
 
 .underline {
